@@ -1,80 +1,24 @@
-
 <!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!-- saved from url=(0052)https://shiroi.netlify.app/gallery/bubble-ring/dist/ -->
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>GOOGOOG</title>
-
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>JustDoIt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
-            display: flex;
-            height: 100vh;
-            gap: 2rem;
-            justify-content: center;
-            padding: 2rem;
-            place-items: center;
-        }
-
-        div {
-            background: #ff7a18;
-            height: 250px;
-            width: 250px;
-        }
-
-        .animate {
-            animation-duration: 0.75s;
-            animation-delay: 0.5s;
-            animation-name: animate-fade;
-            animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
-            animation-fill-mode: backwards;
-        }
-
-        /* Glow In */
-        .animate.glow {
-            animation-name: animate-glow;
-            animation-timing-function: ease;
-        }
-
-        @keyframes animate-glow {
-            0% {
-                opacity: 0;
-                filter: brightness(3) saturate(3);
-                transform: scale(0.8, 0.8);
-            }
-
-            100% {
-                opacity: 1;
-                filter: brightness(1) saturate(1);
-                transform: scale(1, 1);
-            }
-        }
-
-        .delay-1 {
-            animation-delay: 0.6s;
-        }
-
-        .delay-2 {
-            animation-delay: 0.7s;
-        }
-
-        .delay-3 {
-            animation-delay: 0.8s;
+            text-align: center;
         }
     </style>
-
 </head>
 
 <body>
-<!-- 测试 -->
-    <h3>测试头部</h3>
-    <div>
-        <div class="animate glow delay-1"></div>
-        <div class="animate glow delay-2"></div>
-        <div class="animate glow delay-3"></div>
+    <h3>特效合集</h3>
+    <div class="main">
+        <p><a href="./ring.html">泡泡环</a></p>
+        <p><a href="./snow.html">光点</a></p>
     </div>
-
 
 </body>
 
