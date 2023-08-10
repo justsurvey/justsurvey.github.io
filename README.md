@@ -53,7 +53,7 @@ npm install hexo-deployer-git --save
 ```yaml
 deploy:
   type: git
-  repo: <repository url> #https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  repo: <repository url> #https://github.com/ynsui/ynsui.github.io.git
   branch: [branch]
   message: [message]
 ```
