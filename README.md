@@ -58,6 +58,16 @@ deploy:
   message: [message]
 ```
 
+## 每次改动后发布 
+```bash
+
+//生成静态文件
+hexo generate
+
+//部署文件到github（记得开代理，不然可能出现网络问题）
+hexo deploy
+
+```
 
 
 
